@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- weddingorg.pengembalian tree view -->
+    <record id="weddingorg_pengembalian_view_tree" model="ir.ui.view">
+        <field name="name">Menu data Pengembalian Barang</field>
+        <field name="model">weddingorg.pengembalian</field>
+        <field name="arch" type="xml">
+            <tree>
+                <!-- Add your fields here -->
+                <field name="name"/>
+                <field name="nama_penyewa"/>
+                <field name="order_id"/>
+                <field name="tagihan"/>
+                <field name="tgl_pengembalian"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- weddingorg.pengembalian form view -->
+    <record id="weddingorg_pengembalian_view_form" model="ir.ui.view">
+        <field name="name">Pengembalian Barang</field>
+        <field name="model">weddingorg.pengembalian</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <!-- Add your fields here -->
+                        <field name="name"/>
+                        <field name="nama_penyewa"/>
+                        <field name="order_id"/>
+                        <field name="tagihan"/>
+                        <field name="tgl_pengembalian"/>  
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- weddingorg.pengembalian action window -->
+    <record id="weddingorg_pengembalian_action" model="ir.actions.act_window">
+        <field name="name">Menu Pengembalian</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">weddingorg.pengembalian</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- This Menu Item must have a parent and an action -->
+    <menuitem 
+        id="weddingorg_pengembalian_menu_act" 
+        name="Pengembalian Barang" 
+        parent="weddingorg_order_menu_categ" 
+        action="weddingorg_pengembalian_action" 
+        sequence="20"/>
+
+</odoo>
