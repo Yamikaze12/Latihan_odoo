@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_weddingorg_panggung,access.weddingorg.panggung,model_weddingorg_panggung,,1,1,1,1
+access_weddingorg_pelaminan,access.weddingorg.pelaminan,model_weddingorg_pelaminan,,1,1,1,1
+access_weddingorg_kursipengantin,access.weddingorg.kursipengantin,model_weddingorg_kursipengantin,,1,1,1,1
+access_weddingorg_kursitamu,access.weddingorg.kursitamu,model_weddingorg_kursitamu,,1,1,1,1
+access_weddingorg_order,access.weddingorg.order,model_weddingorg_order,,1,1,1,1
+access_weddingorg_orderpanggungdetail,access.weddingorg.orderpanggungdetail,model_weddingorg_orderpanggungdetail,,1,1,1,1
+access_weddingorg_orderkursidetail,access.weddingorg.orderkursidetail,model_weddingorg_orderkursidetail,,1,1,1,1
+access_weddingorg_pengembalian,access.weddingorg.pengembalian,model_weddingorg_pengembalian,,1,1,1,1

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_report_weddingorg_order" model="ir.actions.report">
+        <field name="name">Report Order Pesta</field>
+        <field name="model">weddingorg.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">weddingorganizzer.action_report_weddingorg_order</field>
+        <field name="report_file">weddingorganizzer.action_report_weddingorg_order</field>
+        <field name="binding_model_id" ref="model_weddingorg_order"/>
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>
